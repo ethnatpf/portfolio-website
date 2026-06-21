@@ -3,6 +3,7 @@ import { Space_Grotesk, Manrope, JetBrains_Mono } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <NextIntlClientProvider>
           <Header />
           <main className="overflow-x-hidden">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

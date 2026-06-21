@@ -21,5 +21,8 @@
   },
   "About": {
     "description": "Développeur full stack spécialisé dans la création d’applications web de haute qualité, avec une grande attention portée aux détails. Naturellement curieux, je suis en apprentissage et en amélioration continue, notamment avec l’acquisition d’un niveau natif en japonais grâce à un apprentissage autodidacte."
+  },
+  "Footer": {
+    "rightText": "Construit avec Next et codé à la main"
   }
 }

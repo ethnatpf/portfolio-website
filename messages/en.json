@@ -21,5 +21,8 @@
   },
   "About": {
     "description": "Full-stack developer focused on building high-quality, detail-oriented web applications. Naturally curious, I’m constantly learning and improving my craft, including achieving native-level proficiency in Japanese through self-directed study."
+  },
+  "Footer": {
+    "rightText": "Built with Next & coded by hand"
   }
 }

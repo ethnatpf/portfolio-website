@@ -28,7 +28,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 w-full bg-ink-950 border-b border-[#111111] h-20 z-20 ">
+    <header className="sticky top-0 w-full bg-ink-950 border-b border-[#111111] h-20 z-20">
       <div className="h-full flex items-center px-4 sm:px-8 lg:px-24 xl:px-42">
         <span className="text-white font-space-grotesk font-bold inline-flex items-center gap-x-2 flex-1">
           <div className=" bg-violet-300 w-2 h-2 rounded-full"></div>
