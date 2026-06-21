@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+    /* Fonts */
+    --font-space-grotesk: var(--font-space-grotesk);
+    --font-manrope: var(--font-manrope);
+
+    /* ── Base surface ─────────────────────────────────────────────── */
+    --color-ink-50: #f5f6f7;
+    --color-ink-100: #e7e8ea;
+    --color-ink-200: #c8cbd1; /* body text (emphasis) */
+    --color-ink-300: #a4a8b0; /* secondary text */
+    --color-ink-400: #9296a0; /* muted text / nav links */
+    --color-ink-500: #71747c; /* labels */
+    --color-ink-600: #52555c;
+    --color-ink-700: #34363c; /* hairline fills */
+    --color-ink-800: #1c1e22;
+    --color-ink-850: #131519; /* raised card surface */
+    --color-ink-900: #0e1013; /* panel surface */
+    --color-ink-950: #0a0b0d; /* page background */
+
+    /* ── Foreground / text ──────────────────────────────────────── */
+    --color-fg: #ececee; /* primary text */
+    --color-fg-strong: #f4f4f6; /* headings */
+    --color-fg-muted: #a4a8b0;
+    --color-fg-subtle: #71747c;
+    --color-fg-faint: #6c6f77; /* footer / timestamps */
+
+    /* ── Accent: Violet ─────────────────────────────────────────── */
+    --color-violet-50: #f5f0ff;
+    --color-violet-100: #ebe0ff;
+    --color-violet-200: #d9c5ff;
+    --color-violet-300: #c79bff;
+    --color-violet-400: #b277ff;
+    --color-violet-500: #9c54f5;
+    --color-violet-600: #8636e0;
+    --color-violet-700: #7028bd;
+    --color-violet-800: #5b2399;
+    --color-violet-900: #4a1f7a;
+    --color-violet-950: #2d1052;
+}
+
+body {
+    font-family: Manrope, system-ui, sans-serif;
+}
