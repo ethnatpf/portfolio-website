@@ -43,11 +43,9 @@ export default function Expertises() {
   ];
 
   return (
-    <section id="expertise" className="mt-8 lg:mt-16 max-w-5xl mx-auto ">
-      <h2 className="text-fg-subtle font-space-grotesk uppercase tracking-[0.14em] text-sm font-semibold">
-        {commonT("expertise")}
-      </h2>
-      <p className="mt-2 mb-4 text-lg text-[#D6D8DD]  ">{t("subtitle")}</p>
+    <section id="expertise" className="home-section">
+      <h2 className="home-section-h2 ">{commonT("expertise")}</h2>
+      <p className="mt-2 mb-6 text-lg text-[#D6D8DD]">{t("subtitle")}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {expertises.map((exp, idx) => (
           <div

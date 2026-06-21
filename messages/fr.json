@@ -8,7 +8,7 @@
   "Hero": {
     "fullstackDev": "Développeur Full-Stack",
     "heading": "Je crée des applications web de A à Z.",
-    "description": "Développeur full stack sérieux et minutieux, j'accorde une grande importance à la qualité du travail et aux détails. Curieux de nature, j'aime apprendre continuellement de nouvelles technologies.",
+    "description": "Développeur full stack spécialisé dans la création d’applications web rapides et fiables — de la base de données et de l’infrastructure jusqu’à une interface soignée et réfléchie.",
     "viewProjects": "Voir mes projets",
     "getInTouch": "Me contacter"
   },
@@ -18,5 +18,8 @@
     "vuenuxtDescription": "Interfaces réactives et applications rendues côté serveur avec l’écosystème Vue.",
     "reactnextDescription": "Interfaces orientées composants et applications full-stack Next.js.",
     "dockerk8sDescription": "Services conteneurisés et déploiements orchestrés et scalables."
+  },
+  "About": {
+    "description": "Développeur full stack spécialisé dans la création d’applications web de haute qualité, avec une grande attention portée aux détails. Naturellement curieux, je suis en apprentissage et en amélioration continue, notamment avec l’acquisition d’un niveau natif en japonais grâce à un apprentissage autodidacte."
   }
 }

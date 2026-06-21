@@ -8,7 +8,7 @@
   "Hero": {
     "fullstackDev": "Développeur Full-Stack",
     "heading": "I build web apps,\n end to end.",
-    "description": "Serious and detail-oriented full-stack developer, I place great importance on the quality of my work and attention to detail. Naturally curious, I enjoy continuously learning new things.",
+    "description": "Full-stack developer focused on fast, reliable web applications — from database and infrastructure to a clean, considered interface.",
     "viewProjects": "View projects",
     "getInTouch": "Get in touch"
   },
@@ -18,5 +18,8 @@
     "vuenuxtDescription": "Reactive interfaces and server-rendered apps with the Vue ecosystem.",
     "reactnextDescription": "Component-driven UIs and full-stack Next.js applications.",
     "dockerk8sDescription": "Containerized services and orchestrated, scalable deployments."
+  },
+  "About": {
+    "description": "Full-stack developer focused on building high-quality, detail-oriented web applications. Naturally curious, I’m constantly learning and improving my craft, including achieving native-level proficiency in Japanese through self-directed study."
   }
 }
