@@ -1,5 +1,5 @@
 {
-  "Header": {
+  "Common": {
     "expertise": "Expertise",
     "about": "À propos",
     "project": "Projets",
@@ -11,5 +11,12 @@
     "description": "Développeur full stack sérieux et minutieux, j'accorde une grande importance à la qualité du travail et aux détails. Curieux de nature, j'aime apprendre continuellement de nouvelles technologies.",
     "viewProjects": "Voir mes projets",
     "getInTouch": "Me contacter"
+  },
+  "Expertise": {
+    "subtitle": "Une stack ciblée, utilisée en production.",
+    "jstsDescription": "JavaScript typé et moderne sur l’ensemble de la stack.",
+    "vuenuxtDescription": "Interfaces réactives et applications rendues côté serveur avec l’écosystème Vue.",
+    "reactnextDescription": "Interfaces orientées composants et applications full-stack Next.js.",
+    "dockerk8sDescription": "Services conteneurisés et déploiements orchestrés et scalables."
   }
 }

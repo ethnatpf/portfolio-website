@@ -1,5 +1,5 @@
 {
-  "Header": {
+  "Common": {
     "expertise": "Expertise",
     "about": "About",
     "project": "Projects",
@@ -11,5 +11,12 @@
     "description": "Serious and detail-oriented full-stack developer, I place great importance on the quality of my work and attention to detail. Naturally curious, I enjoy continuously learning new things.",
     "viewProjects": "View projects",
     "getInTouch": "Get in touch"
+  },
+  "Expertise": {
+    "subtitle": "A focused stack, used in production.",
+    "jstsDescription": "Typed, modern JavaScript across the entire stack.",
+    "vuenuxtDescription": "Reactive interfaces and server-rendered apps with the Vue ecosystem.",
+    "reactnextDescription": "Component-driven UIs and full-stack Next.js applications.",
+    "dockerk8sDescription": "Containerized services and orchestrated, scalable deployments."
   }
 }

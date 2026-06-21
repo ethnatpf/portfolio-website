@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable}  h-full antialiased`}
+      className={`${spaceGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="bg-ink-950">
         <NextIntlClientProvider>
