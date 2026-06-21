@@ -4,5 +4,12 @@
     "about": "À propos",
     "project": "Projets",
     "contact": "Contact"
+  },
+  "Hero": {
+    "fullstackDev": "Développeur Full-Stack",
+    "heading": "Je crée des applications web de A à Z.",
+    "description": "Développeur full stack sérieux et minutieux, j'accorde une grande importance à la qualité du travail et aux détails. Curieux de nature, j'aime apprendre continuellement de nouvelles technologies.",
+    "viewProjects": "Voir mes projets",
+    "getInTouch": "Me contacter"
   }
 }

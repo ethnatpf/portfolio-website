@@ -1,7 +1,11 @@
+import Hero from "@/components/layout/home/hero";
+
 export default function Home() {
   return (
-    <div>
-      <main></main>
-    </div>
+    <>
+      <div className="mx-5 lg:mx-8">
+        <Hero />
+      </div>
+    </>
   );
 }

@@ -26,7 +26,7 @@ export default function LanguageSwitch() {
         >
           <button
             onClick={() => changeLocale(loc)}
-            className="cursor-pointer uppercase text-sm"
+            className="cursor-pointer uppercase text-sm font-jetbrains-mono"
           >
             {loc}
           </button>

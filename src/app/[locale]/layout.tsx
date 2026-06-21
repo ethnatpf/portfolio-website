@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Manrope } from "next/font/google";
+import { Space_Grotesk, Manrope, JetBrains_Mono } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/layout/header";
@@ -11,6 +11,11 @@ const spaceGrotesk = Space_Grotesk({
 
 const manrope = Manrope({
   variable: "--font-manrope",
+  subsets: ["latin"],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
 });
 
@@ -27,12 +32,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${manrope.variable}  h-full antialiased`}
+      className={`${spaceGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable}  h-full antialiased`}
     >
       <body className="bg-ink-950">
         <NextIntlClientProvider>
           <Header />
-          {children}
+          <main className="overflow-x-hidden">{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>
