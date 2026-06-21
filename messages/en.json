@@ -22,6 +22,14 @@
   "About": {
     "description": "Full-stack developer focused on building high-quality, detail-oriented web applications. Naturally curious, I’m constantly learning and improving my craft, including achieving native-level proficiency in Japanese through self-directed study."
   },
+  "Projects": {
+    "subtitle": "Things I build on my own time.",
+    "viewProject": "View project",
+    "immersionTracker": {
+      "title": "Immersion tracker",
+      "description": "A tracker for language immersion. Log the YouTube and video content you watch and the books you read, and watch your total immersion hours grow over time."
+    }
+  },
   "Footer": {
     "rightText": "Built with Next & coded by hand"
   }

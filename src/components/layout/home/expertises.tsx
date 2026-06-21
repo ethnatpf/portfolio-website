@@ -45,7 +45,7 @@ export default function Expertises() {
   return (
     <section id="expertise" className="home-section">
       <h2 className="home-section-h2 ">{commonT("expertise")}</h2>
-      <p className="mt-2 mb-6 text-lg text-[#D6D8DD]">{t("subtitle")}</p>
+      <p className="home-section-subtitle">{t("subtitle")}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {expertises.map((exp, idx) => (
           <div
