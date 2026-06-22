@@ -25,10 +25,15 @@
   "Projects": {
     "subtitle": "Things I build on my own time.",
     "viewProject": "View project",
+    "currentlyBuilding": "Currently building",
     "immersionTracker": {
       "title": "Immersion tracker",
       "description": "A tracker for language immersion. Log the YouTube and video content you watch and the books you read, and watch your total immersion hours grow over time."
     }
+  },
+  "Contact": {
+    "title": "Let's talk",
+    "description": "Open to interesting projects and conversations."
   },
   "Footer": {
     "rightText": "Built with Next & coded by hand"

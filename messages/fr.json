@@ -25,10 +25,15 @@
   "Projects": {
     "subtitle": "Des choses que je construis sur mon temps libre.",
     "viewProject": "Voir le projet",
+    "currentlyBuilding": "En cours de développement",
     "immersionTracker": {
       "title": "Suivi d'immersion",
       "description": "Un outil de suivi pour l’immersion linguistique. Enregistrez les vidéos YouTube et autres contenus vidéo que vous regardez ainsi que les livres que vous lisez, et observez votre total d’heures d’immersion augmenter au fil du temps."
     }
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Ouvert aux projets stimulants et aux nouvelles opportunités."
   },
   "Footer": {
     "rightText": "Construit avec Next et codé à la main"

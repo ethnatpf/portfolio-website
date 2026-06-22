@@ -19,6 +19,7 @@ export default function Projects() {
       icon: IconType;
       label: string;
     }>;
+    currentlyBuilding?: boolean;
   }> = [
     {
       title: t("immersionTracker.title"),
@@ -45,6 +46,7 @@ export default function Projects() {
           label: "Docker",
         },
       ],
+      currentlyBuilding: true,
     },
   ];
 
@@ -63,9 +65,16 @@ export default function Projects() {
               <span className="font-semibold text-2xl text-fg-strong flex-1">
                 {proj.title}
               </span>
-              <button className="text-violet-300 cursor-pointer font-semibold max-w-max">
-                {t("viewProject")}
-              </button>
+
+              {proj.currentlyBuilding ? (
+                <span className="text-violet-300 font-semibold ">
+                  {t("currentlyBuilding")}
+                </span>
+              ) : (
+                <button className="text-violet-300 cursor-pointer font-semibold max-w-max">
+                  {t("viewProject")}
+                </button>
+              )}
             </div>
 
             <p className="text-fg-muted max-w-3/4">{proj.description}</p>
